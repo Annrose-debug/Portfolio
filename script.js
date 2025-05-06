@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Form submission logic would go here
-        // For now, we'll just show a success message
         const successMessage = document.createElement('div');
         successMessage.className = 'alert success';
         successMessage.innerHTML = `
