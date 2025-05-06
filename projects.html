@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Annrose Akande</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">AA</span>
+                <span class="name">Annrose Akande</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html"><span>01.</span> Home</a></li>
+                    <li><a href="resume.html"><span>02.</span> Resume</a></li>
+                    <li><a href="projects.html" class="active"><span>03.</span> Projects</a></li>
+                    <li><a href="contacts.html"><span>04.</span> Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="projects-main">
+        <section class="projects-hero">
+            <div class="container">
+                <h1><span>03.</span> My Projects</h1>
+                <p>A collection of my recent work and personal projects</p>
+            </div>
+        </section>
+
+        <section class="projects-grid">
+            <div class="container">
+                <!-- To-Do App -->
+                <article class="project-detail" id="todo-app">
+                    <div class="project-header">
+                        <h2>Advanced To-Do List Application</h2>
+                        <div class="project-meta">
+                            <span class="date">March 2025 - Present</span>
+                            <span class="status in-progress">In Progress</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-media">
+                            <div class="project-slider">
+                                <div class="slider-container">
+                                    <img src="images/todo-app-1.jpg" alt="To-Do App Screenshot 1" class="active">
+                                    <img src="images/todo-app-2.jpg" alt="To-Do App Screenshot 2">
+                                    <img src="images/todo-app-3.jpg" alt="To-Do App Screenshot 3">
+                                </div>
+                                <div class="slider-controls">
+                                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                                    <div class="slider-dots"></div>
+                                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-description">
+                                <h3>Project Overview</h3>
+                                <p>
+                                    A comprehensive task management application designed to help users organize their daily activities with advanced features like reminders, categorization, and cross-platform synchronization.
+                                </p>
+                                <p>
+                                    The application is being developed using Flutter for a seamless cross-platform experience (iOS, Android, Web) with Firebase handling the backend services including authentication, database, and cloud functions.
+                                </p>
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>User authentication (email/password, Google Sign-In)</li>
+                                    <li>Task creation with due dates, priorities, and categories</li>
+                                    <li>Push notifications for reminders</li>
+                                    <li>Offline functionality with sync when online</li>
+                                    <li>Dark/Light theme support</li>
+                                    <li>Data visualization with completion statistics</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-tags">
+                                    <span>Flutter</span>
+                                    <span>Dart</span>
+                                    <span>Firebase</span>
+                                    <span>Firestore</span>
+                                    <span>Cloud Functions</span>
+                                </div>
+                            </div>
+                            <div class="project-challenges">
+                                <h3>Challenges & Solutions</h3>
+                                <p>
+                                    <strong>Challenge:</strong> Implementing real-time synchronization across multiple devices while maintaining offline functionality.
+                                </p>
+                                <p>
+                                    <strong>Solution:</strong> Utilized Firebase Firestore with cache persistence enabled, combined with a custom sync manager that queues changes when offline and applies them when connectivity is restored.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Library System -->
+                <article class="project-detail" id="library-system">
+                    <div class="project-header">
+                        <h2>Library Management System</h2>
+                        <div class="project-meta">
+                            <span class="date">February 2025</span>
+                            <span class="status completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-media">
+                            <div class="project-slider">
+                                <div class="slider-container">
+                                    <img src="images/library-1.jpg" alt="Library System Screenshot 1" class="active">
+                                    <img src="images/library-2.jpg" alt="Library System Screenshot 2">
+                                    <img src="images/library-3.jpg" alt="Library System Screenshot 3">
+                                </div>
+                                <div class="slider-controls">
+                                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                                    <div class="slider-dots"></div>
+                                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-description">
+                                <h3>Project Overview</h3>
+                                <p>
+                                    A desktop application for managing library operations including book inventory, patron records, checkouts, and returns. Developed as a Java application with Swing GUI and MySQL database.
+                                </p>
+                                <p>
+                                    The system was designed to streamline library operations, reduce manual work, and provide librarians with an efficient tool for managing their collections and patron interactions.
+                                </p>
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Book inventory management (add, edit, delete, search)</li>
+                                    <li>Patron registration and management</li>
+                                    <li>Checkout/return system with due date tracking</li>
+                                    <li>Late fee calculation</li>
+                                    <li>Report generation (popular books, overdue items)</li>
+                                    <li>Multi-user login with different permission levels</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-tags">
+                                    <span>Java</span>
+                                    <span>Swing</span>
+                                    <span>MySQL</span>
+                                    <span>JDBC</span>
+                                    <span>MVC Pattern</span>
+                                </div>
+                            </div>
+                            <div class="project-challenges">
+                                <h3>Challenges & Solutions</h3>
+                                <p>
+                                    <strong>Challenge:</strong> Designing a database schema that could efficiently handle complex relationships between books, copies, patrons, and transactions.
+                                </p>
+                                <p>
+                                    <strong>Solution:</strong> Implemented a normalized database structure with proper indexing and foreign key relationships. Created optimized SQL queries and used connection pooling to improve performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Urban Homes -->
+                <article class="project-detail" id="urban-homes">
+                    <div class="project-header">
+                        <h2>Urban Homes Real Estate</h2>
+                        <div class="project-meta">
+                            <span class="date">January 2024</span>
+                            <span class="status completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-media">
+                            <div class="project-slider">
+                                <div class="slider-container">
+                                    <img src="images/urban-1.jpg" alt="Urban Homes Screenshot 1" class="active">
+                                    <img src="images/urban-2.jpg" alt="Urban Homes Screenshot 2">
+                                    <img src="images/urban-3.jpg" alt="Urban Homes Screenshot 3">
+                                </div>
+                                <div class="slider-controls">
+                                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                                    <div class="slider-dots"></div>
+                                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-description">
+                                <h3>Project Overview</h3>
+                                <p>
+                                    A responsive real estate website that allows users to browse property listings, filter search results, and contact agents. Built with pure HTML, CSS, and JavaScript as a frontend project.
+                                </p>
+                                <p>
+                                    The website features a clean, modern design with intuitive navigation and property showcases designed to highlight the best features of each listing.
+                                </p>
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Responsive design for all device sizes</li>
+                                    <li>Property search with multiple filters</li>
+                                    <li>Interactive property galleries</li>
+                                    <li>Agent contact forms</li>
+                                    <li>Featured listings carousel</li>
+                                    <li>Neighborhood information sections</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <h3>Technologies Used</h3>
+                                <div class="tech-tags">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                    <span>Responsive Design</span>
+                                    <span>CSS Grid/Flexbox</span>
+                                </div>
+                            </div>
+                            <div class="project-challenges">
+                                <h3>Challenges & Solutions</h3>
+                                <p>
+                                    <strong>Challenge:</strong> Creating a responsive design that maintained usability and visual appeal across all device sizes from desktop to mobile.
+                                </p>
+                                <p>
+                                    <strong>Solution:</strong> Implemented a mobile-first approach using CSS Grid and Flexbox for layout, with careful media query breakpoints to ensure optimal viewing at every screen size.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- User Auth System -->
+                <article class="project-detail" id="auth-system">
+                    <div class="project-header">
+                        <h2>User Authentication System</h2>
+                        <div class="project-meta">
+                            <span class="date">Upcoming</span>
+                            <span class="status planned">Planned</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-media">
+                            <div class="project-image">
+                                <img src="images/auth-system.jpg" alt="Auth System Concept">
+                            </div>
+                            <div class="project-links">
+                                <button class="btn btn-outline" disabled><i class="fas fa-external-link-alt"></i> Coming Soon</button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-description">
+                                <h3>Project Overview</h3>
+                                <p>
+                                    A secure user authentication system that will implement modern security best practices including password hashing, CSRF protection, and JWT authentication.
+                                </p>
+                                <p>
+                                    The system will be built as a microservice that can be integrated with other applications, providing a robust foundation for user management and access control.
+                                </p>
+                                <h3>Planned Features</h3>
+                                <ul>
+                                    <li>Email/password authentication</li>
+                                    <li>Social login (Google, Facebook)</li>
+                                    <li>Email verification</li>
+                                    <li>Password reset flow</li>
+                                    <li>Role-based access control</li>
+                                    <li>JWT token authentication</li>
+                                    <li>Rate limiting and security headers</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <h3>Technologies Planned</h3>
+                                <div class="tech-tags">
+                                    <span>Node.js</span>
+                                    <span>Express</span>
+                                    <span>MongoDB</span>
+                                    <span>JWT</span>
+                                    <span>OAuth</span>
+                                </div>
+                            </div>
+                            <div class="project-challenges">
+                                <h3>Expected Challenges</h3>
+                                <p>
+                                    <strong>Challenge:</strong> Implementing secure authentication flows that protect against common vulnerabilities like session hijacking, CSRF, and brute force attacks.
+                                </p>
+                                <p>
+                                    <strong>Solution Approach:</strong> Will implement industry-standard security practices including proper password hashing with bcrypt, CSRF tokens, secure cookie settings, and rate limiting on authentication endpoints.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="https://github.com/Annrose-debug" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://linkedin.com/in/annrose-akande" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="mailto:akan0025@algonquinlive.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <p>Designed & Built by Annrose Akande</p>
+                    <p>© 2025 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
